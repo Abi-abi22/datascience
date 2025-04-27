@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gym Recommendation Form</title>
+</head>
+<body>
+    <h1>Enter your details:</h1>
+    <form method="POST" action="/">
+        <label>Sex (Male=1, Female=0):</label>
+        <input type="number" name="Sex" required><br><br>
+
+        <label>Age:</label>
+        <input type="number" name="Age" required><br><br>
+
+        <label>Height (in meters):</label>
+        <input type="text" name="Height" required><br><br>
+
+        <label>Weight (in kg):</label>
+        <input type="text" name="Weight" required><br><br>
+
+        <label>Hypertension (Yes=1, No=0):</label>
+        <input type="number" name="Hypertension" required><br><br>
+
+        <label>Diabetes (Yes=1, No=0):</label>
+        <input type="number" name="Diabetes" required><br><br>
+
+        <label>BMI:</label>
+        <input type="text" name="BMI" required><br><br>
+
+        <label>Level (Underweight=3, Normal=0, Overweight=2, Obese=1):</label>
+        <input type="number" name="Level" required><br><br>
+
+        <label>Fitness Goal (Weight Gain=0, Weight Loss=1):</label>
+        <input type="number" name="Fitness_Goal" required><br><br>
+
+        <label>Fitness Type (Muscular Fitness=1, Cardio Fitness=0):</label>
+        <input type="number" name="Fitness_Type" required><br><br>
+
+        <button type="submit">Get Recommendation</button>
+    </form>
+</body>
+</html>
